@@ -66,3 +66,20 @@ geolocator.reverse("48.8566, 2.3522")
 
 - Use folium and government / non-official world commerce trade data, to show how trade is distributed around the world,
   and possibly to give a score of most countries their dependency on some certain conmmodities.
+
+## License
+
+This project is licensed under the [License Name](link-to-license) - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) YEAR Your Name
+
+
+## Version
+
+Current version: 1.0.1
+
+### Updates
+
+Changed all structures to use `uv` to manage the dependencies (yes I am RUST fan), also added a `requirements.txt` file
+
+
