@@ -69,17 +69,15 @@ geolocator.reverse("48.8566, 2.3522")
 
 ## License
 
-This project is licensed under the [License Name](link-to-license) - see the [LICENSE](LICENSE) file for details.
-
-Copyright (c) YEAR Your Name
-
+This project is GNU GENERAL PUBLIC Version 3 licensed - see the [LICENSE](LICENSE) file for details
 
 ## Version
 
-Current version: 1.0.1
+Current version: **1.0.1**
 
 ### Updates
 
-Changed all structures to use `uv` to manage the dependencies (yes I am RUST fan), also added a `requirements.txt` file
+- **[2024-10-25]** Changed all structures to use `uv` to manage the dependencies (yes I am RUST fan),
+  added a `requirements.txt` file, added LICENSE file
 
 
