@@ -8,6 +8,11 @@
 
 To make a map that records Victor's existence in the world
 
+An example of the result:
+
+<img src="images/final_map_example.png" alt="Final Map Example" style="max-width: 40%; height: auto;"/>
+
+
 ## How to Run
 
 Directly run the [run.py](run.py) script:
