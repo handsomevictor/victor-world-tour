@@ -12,6 +12,8 @@ An example of the result:
 
 <img src="images/final_map_example.png" alt="Final Map Example" style="max-width: 30%; height: auto;"/>
 
+<img src="images/final_map_example2.png" alt="Final Map Example" style="max-width: 30%; height: auto;"/>
+
 
 ## How to Run
 
