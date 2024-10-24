@@ -1,0 +1,8 @@
+[project]
+name = "victor-world-tour"
+version = "0.1.0"
+description = "This project uses folium to create an interactive map of the places that Victor has visited."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["folium", "geopy", "toml"]
+

@@ -1,0 +1,166 @@
+# For a place that Victor has stayed:
+# for 1 day, the score is 1
+# for more than 2 days, score is 2
+# for more than 5 days, score is 3
+# for more than 1 month, score is 4
+# for more than 6 months, score is 5
+# for more than 1 year, score is 6
+# for more than 4 years, score is 7
+
+[all_places]
+
+[all_places.France]
+Paris = 7
+Strasbourg = 2
+Marseille = 2
+Nice = 3
+Toulon = 2
+Normandie = 2
+
+[all_places.Spain]
+Barcelona = 5
+Madrid = 1
+Valencia = 1
+Murcia = 1
+Seville = 1
+Cadiz = 1
+Zaragoza = 2
+Malaga = 1
+Bilbao = 3
+Tarifa = 2
+
+[all_places.United_Kingdom]
+London = 3
+Cambridge = 2
+
+[all_places.Netherlands]
+Amsterdam = 2
+Rotterdam = 2
+Den_Haag = 1
+
+[all_places.Belgium]
+Brussels = 2
+Brugge = 1
+Ghent = 1
+
+[all_places.Germany]
+Berlin = 2
+Munich = 1
+Frankfurt = 1
+Hamberg = 1
+
+[all_places.Poland]
+Warsaw = 2
+Krakow = 2
+Gdansk = 1
+Katowice = 1
+Chochołów = 1
+Puck = 1
+Gdynia = 1
+Zakopane = 2
+
+[all_places.Czech_Republic]
+Prague = 1
+
+[all_places.Austria]
+Vienna = 2
+
+[all_places.Hungary]
+Budapest = 3
+
+[all_places.Slovakia]
+Bratislava = 1
+
+[all_places.Italy]
+Venice = 3
+Dolomites = 2
+
+[all_places.Switzerland]
+Lucerne = 1
+Thun = 2
+Zurich = 1
+Bern = 1
+Interlaken = 1
+Basel = 1
+
+[all_places.Greece]
+Athens = 2
+Thessaloniki = 2
+
+[all_places.Turkey]
+Istanbul = 2
+Izmir = 2
+Mardin = 1
+
+[all_places.Morocco]
+Marrakech = 1
+Tangier = 1
+Fes = 1
+Chefchaouen = 2
+Rabat = 1
+
+[all_places.Jordan]
+Amman = 2
+Aqaba = 2
+Wadi_Rum = 1
+
+[all_places.Japan]
+Tokyo = 2
+Kyoto = 4
+Osaka = 2
+
+[all_places.South_Korea]
+Seoul = 2
+Daejeon = 4
+
+[all_places.China]
+Beijing = 7
+郑州 = 7
+Shanghai = 4
+Hangzhou = 3
+Suzhou = 2
+Guilin = 2
+Xian = 3
+哈尔滨 = 2
+Zhangjiajie = 2
+Tangshan = 3
+Wuhan = 2
+Shenzhen = 3
+Urumqi = 2
+Kashgar = 2
+Hetian = 2
+Atushi = 4
+Xilingol = 3
+Dalian = 2
+Tianjin = 3
+Hong_Kong = 3
+
+[all_places.Taiwan]
+Taipei = 3
+Taichung = 1
+Tainan = 1
+Kaohsiung = 2
+
+[all_places.Thailand]
+Bangkok = 3
+Phuket = 4
+Pattaya = 2
+
+[all_places.Singapore]
+Singapore = 3
+
+[all_places.United_States]
+New_York = 2
+Los_Angeles = 1
+San_Francisco = 2
+Miami = 2
+Orlando = 2
+Washington_DC = 2
+Boston = 2
+Philadelphia = 1
+Houston = 2
+Atlanta = 3
+Denver = 2
+
+[all_places.Syria]
+Qamishli = 1
