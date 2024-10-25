@@ -35,7 +35,7 @@ Directly run the [run.py](run.py) script:
    remember to follow the format (if you don't want to give a scroe, put a 0)
 2. After adding your places, run the [run.py](run.py) script but have to change the param: `update_all_locations=True`
    in main(), to let geolocator to add the location of the places that are not in the database yet
-3. After it's done, you will find your own map in html format here [my_travel_map.html](docs/my_travel_map.html)
+3. After it's done, you will find your own map in html format here [my_travel_map.html](dist/my_travel_map.html)
 
 ## Script Logic
 

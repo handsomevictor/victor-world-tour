@@ -20,13 +20,20 @@ def generate_map_html(html_name="my_travel_map.html"):
 
     # create map
     m = folium.Map(location=[20, 0], zoom_start=2)
-    scale_factor = 15000  # change this value to control the size of the circle
+    scale_factor = 10000  # change this value to control the size of the circle
 
     for place, location in all_locations.items():
         city, country = place.split(", ")
+        city_score = all_places_long_lat['all_places'][country][city]
+        if city_score == 5:
+            city_score += 4
+        if city_score == 6:
+            city_score += 8
+
         folium.Circle(
             location=location,  # list of latitude and longitude
-            radius=scale_factor * (math.sqrt(all_places_long_lat['all_places'][country][city]) * 2),
+            radius=scale_factor * (city_score ** 1) * 2,
+            # radius=scale_factor * (all_places_long_lat['all_places'][country][city] ** 2.2),
             color='green',  # 圆圈颜色
             fill=True,  # 填充
             fill_color='lightblue',  # 填充颜色
@@ -37,9 +44,9 @@ def generate_map_html(html_name="my_travel_map.html"):
         # 颜色深，表示呆的时间久？
         # 用自定义笑脸和哭脸？
 
-    map_file = os.path.join(os.path.dirname(__file__), '..', '..', 'docs', html_name)
+    map_file = os.path.join(os.path.dirname(__file__), '..', '..', 'dist', html_name)
     m.save(map_file)
-    print(f"Map saved to /docs/{html_name}")
+    print(f"Map saved to /dist/{html_name}")
 
 
 if __name__ == "__main__":
