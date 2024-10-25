@@ -10,12 +10,12 @@ To make a map that records Victor's existence in the world
 
 An example of the result:
 
-<div style="text-align: center;">
-    <img src="images/final_map_example.png" alt="Final Map Example" style="max-width: 20%; max-height: 300px; height: auto; width: auto;"/>
+<div style="text-align: left;">
+    <img src="images/final_map_example.png" alt="Final Map Example" style="max-width: 40%; max-height: 300px; height: auto; width: auto;"/>
 </div>
 
-<div style="text-align: center;">
-    <img src="images/final_map_example2.png" alt="Final Map Example 2" style="max-width: 20%; max-height: 300px; height: auto; width: auto;"/>
+<div style="text-align: left;">
+    <img src="images/final_map_example2.png" alt="Final Map Example 2" style="max-width: 40%; max-height: 300px; height: auto; width: auto;"/>
 </div>
 
 
