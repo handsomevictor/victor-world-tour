@@ -53,7 +53,7 @@ Directly run the [run.py](run.py) script:
    [check_location.py](src/victor_world_tour/check_location.py) to check if the location you want to input can
    return anything. A reminder is, this `geolocator` supports more than one language, so for example if you want to
    get the location of `Zhengzhou` (in Henan province), you will find `Zhengzhou, China` is not in Henan due to
-   collation issue, you can use `郑州` instead of `Zhengzhou` to get it correct. When the result is wrong, it returns
+   name collision, you can use `郑州` instead of `Zhengzhou` to get it correct. When the result is wrong, it returns
    None or a false location
 2. When running [get_place_location.py](src/victor_world_tour/get_place_location.py) / using `geolocator.geocode`,
    due to the API setting, sometimes it will return an Error. I already implemented a retry and sleep mechanism,

@@ -9,79 +9,367 @@
 
 [all_places]
 
+# ---------------------------------------- France ----------------------------------------
 [all_places.France]
-Paris = 7
-Strasbourg = 2
-Marseille = 2
-Nice = 3
-Toulon = 2
-Normandie = 2
+[all_places.France.Paris]
+socre = 6
+comment = "Came here for master degrere in the year of Covid, and found a job here after graduation"
+datetime = "2020-09-10"
+duration = 1460
+count = 1
 
-[all_places.Spain]
-Barcelona = 5
-Madrid = 1
-Valencia = 1
-Murcia = 1
-Seville = 1
-Cadiz = 1
-Zaragoza = 2
-Malaga = 1
-Bilbao = 3
-Tarifa = 2
+[all_places.France.Strasbourg]
+socre = 6
+comment = ""
+datetime = "2021-12-25"
+duration = 4
+count = 1
 
-[all_places.United_Kingdom]
-London = 3
-Cambridge = 2
+[all_places.France.Marseille]
+socre = 5
+comment = ""
+datetime = "2021-06-20"
+duration = 3
+count = 2
 
-[all_places.Netherlands]
-Amsterdam = 2
-Rotterdam = 2
-Den_Haag = 1
+[all_places.France.Nice]
+socre = 7
+comment = ""
+datetime = "2021-06-20"
+duration = 5
+count = 1
 
-[all_places.Belgium]
-Brussels = 2
-Brugge = 1
-Ghent = 1
+[all_places.France.Toulon]
+socre = 5
+comment = "Kaiko Annual Outing"
+datetime = "2022-06-20"
+duration = 3
+count = 1
 
-[all_places.Germany]
-Berlin = 2
-Munich = 1
-Frankfurt = 1
-Hamberg = 1
+[all_places.France.Normandie]
+socre = 7
+comment = "Kaiko Annual Outing"
+datetime = "2024-05-15"
+duration = 3
+count = 1
 
-[all_places.Poland]
-Warsaw = 2
-Krakow = 2
-Gdansk = 1
-Katowice = 1
-Chochołów = 1
-Puck = 1
-Gdynia = 1
-Zakopane = 2
 
-[all_places.Czech_Republic]
-Prague = 1
+# ---------------------------------------- Spain ----------------------------------------
+[all_places.Spain.Barcelona]
+score = 6
+comment = "First time to Europe, on an exchange program with Universitat de Barcelona"
+datetime = "2016-09-20"
+duration = 180
+count = 3
 
-[all_places.Austria]
-Vienna = 2
+[all_places.Spain.Madrid]
+score = 5
+comment = "Madrid people speak very authentic Spanish"
+datetime = ""
+duration = 2
+count = 1
 
-[all_places.Hungary]
-Budapest = 3
+[all_places.Spain.Valencia]
+score = 8
+comment = "Sky and city walking lines are so good, it's a good place for elder people"
+datetime = "2016-10-01"
+duration = 3
+count = 1
 
-[all_places.Slovakia]
-Bratislava = 1
+[all_places.Spain.Murcia]
+score = 5
+comment = ""
+datetime = ""
+duration = 3
+count = 1
 
-[all_places.Italy]
-Venice = 3
-Dolomites = 2
+[all_places.Spain.Seville]
+score = 4
+comment = "With XuXin there, we were climbing some random mountains and took the bus and waited for a long time"
+datetime = ""
+duration = 2
+count = 1
 
-[all_places.Switzerland]
-Lucerne = 1
-Thun = 2
-Zurich = 1
-Bern = 1
-Interlaken = 1
-Basel = 1
+[all_places.Spain.Cadiz]
+score = 5
+comment = ""
+datetime = ""
+duration = 2
+count = 1
+
+[all_places.Spain.Zaragoza]
+score = 5
+comment = ""
+datetime = ""
+duration = 2
+count = 1
+
+[all_places.Spain.Malaga]
+score = 5
+comment = ""
+datetime = ""
+duration = 1
+count = 1
+
+[all_places.Spain.Bilbao]
+score = 6
+comment = "Been here twice, once with Vanessa, once with DSBA friends like Tino Ding etc."
+datetime = ""
+duration = 4
+count = 2
+
+[all_places.Spain.Tarifa]
+score = 5
+comment = ""
+datetime = ""
+duration = 1
+count = 1
+
+
+# ---------------------------------------- United Kingdom ----------------------------------------
+[all_places.United_Kingdom.London]
+score = 8
+comment = "I love London, except for the weather and the price"
+datetime = "2023-08-03"
+duration = 4
+count = 1
+
+[all_places.United_Kingdom.Cambridge]
+score = 9
+comment = "Nice city, nice school, nice math people, and somehow in the town I feel I need to absorb more knowledge"
+datetime = "2023-06-05"
+duration = 3
+count = 1
+
+
+# ---------------------------------------- Netherlands ----------------------------------------
+[all_places.Netherlands.Amsterdam]
+score = 6
+comment = """
+A city with wonderful modern-looking buildings, everything is modern and clean but also have a bit of classic taste.
+I do think it's a very good city to work in.
+"""
+datetime = "2017-01-03"
+duration = 8
+count = 3
+
+[all_places.Netherlands.Rotterdam]
+score = 7
+comment = "Very modern looking, I love the music hall"
+datetime = "2023-11-01"
+duration = 2
+count = 1
+
+[all_places.Netherlands.Den_Haag]
+score = 5
+comment = "Drove there, near the see, but seems nothing very special, the museum seems fine"
+datetime = "2023-11-04"
+duration = 1
+count = 1
+
+
+# ---------------------------------------- Belgium ----------------------------------------
+[all_places.Belgium.Brussels]
+score = 5
+comment = "Another version of Paris but slightly a bit more modern, nothing very special, I like the Atomium"
+datetime = "2017-01-10"
+duration = 2
+count = 2
+
+[all_places.Belgium.Brugge]
+score = 5
+comment = "Nothing very special, drove there and had a brief look. People seems more polite than in Brussels"
+datetime = "2023-11-05"
+duration = 1
+count = 1
+
+[all_places.Belgium.Ghent]
+score = 5
+comment = ""
+datetime = "2023-11-06"
+duration = 1
+count = 1
+
+
+# ---------------------------------------- Germany ----------------------------------------
+[all_places.Germany.Berlin]
+score = 6
+comment = "Can't say it's a good city imo, but I see people are living at a bit of ease"
+datetime = "2017-12-15"
+duration = 3
+count = 1
+
+[all_places.Germany.Munich]
+score = 5
+comment = ""
+datetime = "2017-12-18"
+duration = 2
+count = 1
+
+[all_places.Germany.Frankfurt]
+score = 5
+comment = "I just bought some Lamy there hahaha"
+datetime = "2017-12-20"
+duration = 1
+count = 1
+
+
+# ---------------------------------------- Poland ----------------------------------------
+[all_places.Poland.Warsaw]
+score = 7
+comment = """
+I love Chopin, and I love the city. The city looks nice, people are nice, just in my last trip in 2024 March, I
+kind of feel the rich and poor gap is a bit too big
+"""
+datetime = "2017-12-10"
+duration = 7
+count = 2
+
+[all_places.Poland.Krakow]
+score = 6
+comment = "Just drove through the city, but I feel it's a city with some history"
+datetime = "2024-03-28"
+duration = 1
+count = 1
+
+[all_places.Poland.Gdansk]
+score = 6
+comment = "Drove in the city and beach, people are relaxed and place is relaxing. A goood place for retirement"
+datetime = "2024-04-03"
+duration = 2
+count = 1
+
+[all_places.Poland.Chochołów]
+score = 7
+comment = "There is a huge spa resort here and during the weekend a lot of locals and people of nearby countries come"
+datetime = "2024-03-29"
+duration = 2
+count = 1
+
+[all_places.Poland.Puck]
+score = 6
+comment = """
+Drove through, nice place, nice Baltic sea, can see a lot of friendly people fishing and living sweetly in the village
+"""
+datetime = "2024-04-02"
+duration = 1
+count = 1
+
+[all_places.Poland.Gdynia]
+score = 5
+comment = "Drove through, similar to nearby cities, nothing very special I would say."
+datetime = "2024-04-03"
+duration = 1
+count = 1
+
+[all_places.Poland.Zakopane]
+score = 8
+comment = """
+I love the mountain and the Morskie Oko. It's a very good place for self driving trip. Some people are skiing"""
+datetime = "2024-03-31"
+duration = 1
+count = 1
+
+
+# ---------------------------------------- Czech Republic ----------------------------------------
+[all_places.Czech_Republic.Prague]
+score = 5
+comment = "Beautiful city, but too many tourists and the city is a bit too commercial"
+datetime = "2017-12-10"
+duration = 3
+count = 2
+
+
+# ---------------------------------------- Austria ----------------------------------------
+[all_places.Austria.Vienna]
+score = 6
+comment = "I prefer Vienna to Prague, the city is more elegant and can find more interesting history related to music"
+datetime = "2017-12-13"
+duration = 3
+count = 2
+
+
+# ---------------------------------------- Hungary ----------------------------------------
+[all_places.Hungary.Budapest]
+score = 6
+comment = """
+Listz's country, the city is not modern, but cheap, don't know how to judge, probably it's a mixing feeling
+in that someone cheated on me in some hotel during the school visit in 2022. But I started to love Riesling after that
+trip and I like being drunk and walking in the city imagining I am some pianist
+"""
+datetime = "2017-12-16"
+duration = 10
+count = 2
+
+
+# ---------------------------------------- Italy ----------------------------------------
+[all_places.Italy.Venice]
+score = 4
+comment = """For me there are too many tourists and too commercial. In fact I don't like the city, and
+I don't think the place worths a second visit.
+"""
+datetime = "2017-10-20"
+duration = 7
+count = 2
+
+[all_places.Italy.Dolomites]
+score = 7
+comment = """Very good place for sightseeing and hiking, I love the mountain and the lake there. Very good for
+self-driving tour. Extremely relaxing if weather is good. Places like this even with all the tourists are still
+worth a visit"""
+datetime = "2024-06-20"
+duration = 5
+count = 1
+
+
+# ---------------------------------------- Switzerland ----------------------------------------
+[all_places.Switzerland.Lucerne]
+score = 6
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+[all_places.Switzerland.Thun]
+score = 1
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+[all_places.Switzerland.Zurich]
+score = 1
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+[all_places.Switzerland.Bern]
+score = 1
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+[all_places.Switzerland.Interlaken]
+score = 1
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+[all_places.Switzerland.Basel]
+score = 1
+comment = ""
+datetime = ""
+duration = ""
+count = ""
+
+
+
+
+
+
 
 [all_places.Greece]
 Athens = 2
